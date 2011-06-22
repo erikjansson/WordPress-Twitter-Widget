@@ -20,7 +20,7 @@ class JW_Twitter_Widget extends WP_Widget {
     }
     
     public function form($instance) {
-       // $instance = title, twitter usrname, num_tweets
+       // $instance = title, twitter username, num_tweets
        extract($instance);
        ?>
 
